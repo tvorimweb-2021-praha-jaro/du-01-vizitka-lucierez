@@ -9,7 +9,7 @@ html {
 }
 
 body{
-  font-family: 'Montserrat';
+  font-family: 'Roboto';
   font-size: 20px;
   background-color: black;
   color: white;
@@ -20,7 +20,7 @@ body{
 
 section{
   text-align: center;
-  padding:25px
+  padding: 15px;
   font-size: 18 px
 }
 
@@ -29,13 +29,16 @@ header{
 }
 
 p{
-  padding: 3px;
+  padding: 2px;
   font-size: 16px;
+  color: rgba(226, 226, 226, 0.849)
+
 }
 
 h2{
-  padding: 15px;
-  font-size: 20px;
+  padding: 5px;
+  font-size: 22px;
+  color: rgba(240, 238, 238, 0.973)
 }
 
 img {
@@ -43,6 +46,12 @@ img {
 }
 
 .contact p{
-  padding: 3px;
-  font-size: 14px;
+  padding: 1px;
+  font-size: 16px;
+  color: rgba(214, 28, 28, 0.61);
 }
+
+a {color: whitesmoke;
+font-size: 14px;
+color: rgba(248, 248, 255, 0.842);}
+
