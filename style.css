@@ -8,50 +8,76 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   font-family: 'Roboto';
   font-size: 20px;
-  background-color: black;
-  color: white;
-  max-width: 600px;
+  font-style: normal;
+  font-weight: 300;
+  background-color: transparent;
+  color: rgb(20, 19, 19);
+  max-width: 800px;
   margin: auto;
   text-align: center;
   }
 
-section{
+section {
   text-align: center;
-  padding: 15px;
-  font-size: 18 px
+  font-size: 18px;
+  padding: 2rem;
 }
 
-header{
-  padding:15px
+.lucieTravels img{
+  display: inline;
+  max-width: 300px;
+  max-height: 150px;
+  margin: 1rem;
 }
 
-p{
-  padding: 2px;
+.omne {
+  background-color: rgba(238, 238, 241, 0.664);
+}
+
+.contact {
+  background-color: rgba(238, 238, 241, 0.664);
+}
+
+p {
   font-size: 16px;
-  color: rgba(226, 226, 226, 0.849)
-
+  color: rgb(20, 19, 19);
 }
 
-h2{
-  padding: 5px;
+h2 {
   font-size: 22px;
-  color: rgba(240, 238, 238, 0.973)
+  color: rgb(20, 19, 19);
 }
 
-img {
+h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 2rem;
+}
+
+img{
   max-width: 50%;
+  margin-bottom: 2rem;
 }
 
-.contact p{
-  padding: 1px;
-  font-size: 16px;
-  color: rgba(214, 28, 28, 0.61);
+a {
+  font-size: 14px;
+  color: rgb(20, 19, 19);
+  font-style: normal;
+  font-weight: 300;
 }
 
-a {color: whitesmoke;
-font-size: 14px;
-color: rgba(248, 248, 255, 0.842);}
+nav li{
+  display: inline;
+}
 
+li {
+  list-style-type: none;
+  color: rgb(20, 19, 19);
+  font: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+}
